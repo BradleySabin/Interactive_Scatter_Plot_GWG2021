@@ -1,0 +1,65 @@
+﻿Category,SubCategory,Uncontrolled,Controlled,MenBLS,WomenBLS,Label
+Age,20 to 29,0.85,0.99,,,
+Age,30 to 44,0.81,0.98,,,
+Age,45 and Older,0.72,0.98,,,45 and Older
+Education,Associate's Degree,0.86,0.98,,,
+Education,Bachelor's Degree,0.82,0.99,,,Bachelor's
+Education,Doctorate (PhD),0.82,0.97,,,
+Education,"Health Professional Doctorate (MD, DMD, DVM, etc.)",0.81,0.96,,,
+Education,High School Diploma or GED,0.84,0.98,,,
+Education,"Law Degree (JD, LLM)",0.87,0.98,,,Law Degree
+Education,Master of Business Administration (MBA),0.76,0.96,,,MBA
+Education,Master's Degree (non-MBA),0.79,0.98,,,
+Industry,Accommodation & Food Services,0.88,0.97,Men BLS: 48%,Women BLS: 52%,
+Industry,Agencies & Consultancies,0.82,0.98,Men BLS: 42%,Women BLS: 58%,
+Industry,"Arts, Entertainment & Recreation",0.95,0.99,Men BLS: 55%,Women BLS: 46%,
+Industry,Construction,0.91,0.99,Men BLS: 89%,Women BLS: 11%,
+Industry,Education,0.88,0.99,Men BLS: 31%,Women BLS: 70%,
+Industry,Energy & Utilities,0.88,0.98,Men BLS: 81%,Women BLS: 19%,
+Industry,Engineering & Science,0.86,1,Men BLS: 61%,Women BLS: 39%,Engineering & Science
+Industry,Finance & Insurance,0.76,0.97,Men BLS: 47%,Women BLS: 53%,Finance & Insurance
+Industry,Health Care,0.84,0.99,Men BLS: 24%,Women BLS: 76%,
+Industry,Manufacturing,0.883,0.978,Men BLS: 71%,Women BLS: 30%,
+Industry,Nonprofits,0.875,0.982,Men BLS: 32%,Women BLS: 68%,
+Industry,Real Estate & Rental/Leasing,0.93,0.99,Men BLS: 52%,Women BLS: 48%,
+Industry,Retail & Customer Service,0.85,0.97,Men BLS: 50%,Women BLS: 50%,
+Industry,Tech,0.89,1,Men BLS: 71%,Women BLS: 29%,Tech
+Industry,Transportation & Warehousing,0.86,0.96,Men BLS: 75%,Women BLS: 25%,
+JobLevel,Director,0.83,0.97,,,
+JobLevel,Executive,0.7,0.94,,,Executive
+JobLevel,Individual Contributor,0.82,0.99,,,
+JobLevel,Manager/Supervisor,0.84,0.98,,,
+Occupation,Architecture & Engineering,0.94,1,Men BLS: 84%,Women BLS: 17%,Architecture & Engineering
+Occupation,"Arts, Design, Entertainment, Sports & Media",0.93,0.99,Men BLS: 49%,Women BLS: 51%,
+Occupation,Building & Grounds Cleaning & Maintenance,0.78,0.99,Men BLS: 60%,Women BLS: 40%,
+Occupation,Business & Financial Operations,0.88,0.97,Men BLS: 46%,Women BLS: 54%,
+Occupation,Community & Social Services,0.95,0.99,Men BLS: 31%,Women BLS: 69%,
+Occupation,Computer & Mathematical,0.92,0.98,Men BLS: 75%,Women BLS: 25%,
+Occupation,Construction & Extraction,0.87,0.95,Men BLS: 96%,Women BLS: 4%,
+Occupation,"Education, Training & Library",0.71,1,Men BLS: 27%,Women BLS: 74%,Education
+Occupation,"Farming, Fishing & Forestry",0.81,0.92,Men BLS: 76%,Women BLS: 24%,Farming & Forestry
+Occupation,Food Preparation & Serving Related,0.88,0.97,Men BLS: 46%,Women BLS: 54%,
+Occupation,Healthcare Practitioners & Technical,0.94,0.98,Men BLS: 26%,Women BLS: 74%,
+Occupation,Healthcare Support,0.96,0.98,Men BLS: 15%,Women BLS: 85%,
+Occupation,"Installation, Maintenance & Repair",0.9,0.94,Men BLS: 96%,Women BLS: 4%,
+Occupation,Legal,0.63,1.01,Men BLS: 48%,Women BLS: 52%,Legal
+Occupation,"Life, Physical & Social Science",0.95,0.98,Men BLS: 51%,Women BLS: 49%,
+Occupation,Management,0.8,0.97,Men BLS: 60%,Women BLS: 40%,
+Occupation,Office & Administrative Support,0.94,0.98,Men BLS: 27%,Women BLS: 73%,
+Occupation,Personal Care & Service,0.92,0.99,Men BLS: 23%,Women BLS: 77%,
+Occupation,Production,0.86,0.95,Men BLS: 72%,Women BLS: 28%,
+Occupation,Protective Service,0.86,0.97,Men BLS: 76%,Women BLS: 24%,
+Occupation,Sales & Related,0.81,0.96,Men BLS: 51%,Women BLS: 49%,
+Occupation,Transportation & Material Moving,0.88,0.98,Men BLS: 80%,Women BLS: 21%,
+Race,American Indian Men,0.864,0.994,,,
+Race,American Indian Women,0.692,0.976,,,American Indian Women
+Race,Asian Men,1.167,1.023,,,Asian Men
+Race,Asian Women,0.951,1.019,,,
+Race,Black Men,0.882,0.985,,,
+Race,Black Women,0.771,0.972,,,
+Race,Hispanic Men,0.905,0.988,,,
+Race,Hispanic Women,0.756,0.984,,,
+Race,Pacific Islander Men,0.927,1.004,,,
+Race,Pacific Islander Women,0.763,0.993,,,
+Race,White Men,1,1,,,White Men
+Race,White Women,0.817,0.983,,,

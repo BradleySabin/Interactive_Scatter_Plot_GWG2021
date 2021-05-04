@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 scatterplot</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+		<style type="text/css">
+/* Scatter Plot CSS */
+
+.grid line {
+				stroke: lightgrey;
+				stroke-opacity: 1;
+				shape-rendering: crispEdges;
+				stroke-width:1;
+			}
+			
+			#tooltip_Scatter {
+				position: absolute;
+				width: auto;
+				height: auto;
+				padding: 10px;
+				background-color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+				align-content: center;
+			}
+
+			#tooltip_Scatter.hidden {
+				display: none;
+			}
+
+			#tooltip_Scatter p {
+				margin: 0;
+				font-family: helvetica;
+				font-size: 14px;
+				line-height: 25px;
+				text-align: left;
+			}
+
+
+			text{
+				font-size:12px !important;
+			}
+
+
+			select {
+				width: 22% !important;
+			}
+
+	        #myChart_Scatter > svg {
+				align-content: center;
+
+			}
+
+			@media only screen and (max-width: 600px) {
+
+				#d3-dropdown-scatter{
+					width: 24% !important;
+				}
+
+				text {
+				    font-size: 12 !important;
+				}
+			}
+
+			@media only screen and (max-width: 360px) {
+
+				#d3-dropdown-scatter{
+				width: 35% !important;
+				}
+
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+
+	<!-- scatter plot -->	
+    <div class="row pxl-margin-top-xl">
+        <div class="col-sm-12 text-center">
+            <div class="container text-center">
+				<h3 class="pxl-margin-bottom-xl" style="font-family: Arial, Sans-serif; font-size: 16px; color: #000; font-weight: 900;">Title</h3>
+                <div id = "d3dropdown" class="pxl-margin-bottom-lg" style = " font-family: arial; font-size: 12px; align-items: center; flex-direction: column; display: flex;" >
+					<label>Select a Category: </label>
+                        <select id="d3-dropdown-scatter" style = "font-family: arial; font-size: 12px; ">
+                            <option value="Age">Age</option>
+                            <option value="Education">Education</option>
+                            <option value="JobLevel">Job Level</option>
+                            <option value="Occupation">Occupation</option>
+                            <option value="Industry">Industry</option>
+							<option value="Race">Race</option>
+                        </select>
+                </div>
+
+				<div style="width:830; text-align: center; font-family: helvetica; font-size: 12px;">
+					<svg height="500" id="myChart_Scatter" class="svg-chart" viewBox="0 0 700 500"></svg>
+					<svg height="500" id="myLegend_Scatter" class="svg-legend" viewBox="0 0 200 500"></svg>
+				  </div>
+			  
+				  <div id="tooltip_Scatter" class="hidden" style="text-align:center"	>
+					  <p><strong><span id="TTooltipTitle_Scatter" style="font-size: 14px;color:black"></span></strong></p>
+					  <p><span id="TooltipText1_Scatter" style="color:black; font-size: 12px"></span></p>
+					  <p><span id="TooltipText2_Scatter" style="color:black; font-size: 12px"></span></p>
+					  <p><span id="TooltipText3_Scatter" style="color:black; font-size: 12px"></span></p>
+					  <p><span id="TooltipText4_Scatter" style="color:black; font-size: 12px"></span></p>
+				  </div>
+
+            </div>
+        </div>
+    </div>
+
+	<script type="text/javascript" src="GWG2021_Scatterplot.js"></script>
+
+	</body>
+
+</html>
